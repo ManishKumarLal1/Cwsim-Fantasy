@@ -1,0 +1,41 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  }
+  .container{
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+  }
+  .container .title{
+    font-size: 25px;
+    font-weight: 500px;
+    position: relative;
+  }
+  .container .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: #9b59b6;
+  }
+  .container form .input-box{
+    padding: 10px;
+    align-items: center;
+  }
+  .container form .ha{
+    display: flex; 
+    gap: 50px;
+   margin-bottom: 5px;
+  }
